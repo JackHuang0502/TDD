@@ -46,6 +46,7 @@ namespace HomeWork.Tests
 
         private List<Homework1.HomeWorkProfile> GetHomeWorkProfiles()
         {
+            // review by joey, 建議資料的型別不要取HomeWorkProfile, 而是去思考這樣的需求它可能的意義，例如 Order or Product
             var data = new List<Homework1.HomeWorkProfile>
             {
                 new Homework1.HomeWorkProfile {Id = 1, Cost = 1, Revenue = 11, SellPrice = 21},
